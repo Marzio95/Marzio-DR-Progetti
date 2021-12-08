@@ -1,0 +1,101 @@
+ /* inserisco lo sfondo e lo setto per lo schermo */
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+/* creo un contenitore trasparente che contiene tutto */
+.contenitor{
+  width: 1000px;
+  margin:auto;
+  background: rgba(0, 0, 0, 0.5);
+  height: 680px;
+  border-radius: 15px 15px 15px 15px;
+  margin-top: 25px;
+}
+
+/* sistemo la grandezza del logo */
+.logo{
+  width: 200px;
+  height: auto;
+  margin-top: 80px;
+}
+
+/* centro i componenti dell'header */
+header{
+  text-align: center;
+}
+
+/* riduco la distanza del titolo dal logo e dal nav */
+h1{
+  margin-block-end: auto;
+  margin-block-start: auto;
+  color: rgba(102, 255, 0);
+}
+
+/* nel nav creo un secondo contenitore colorato dove centro i button */
+.contenitor2{
+  width: 800px;
+  margin: auto;
+  background-color: rgba(102, 255, 0);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* distanzio i button  */
+input{
+  margin-right: 5px;
+}
+
+/* sistemo la distanza di tutti i componenti del main
+   dal contenitore trasparente */
+main{
+  width: 800px;
+  margin: auto;
+}
+
+/* ingrandisco i button */
+button{
+height: 15px;
+}
+
+/* definisco il testo di tutti i monopattini */
+.monopattini{
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: auto;
+}
+
+/* definisco il testo di tutte le informazioni dei monopattini */
+p{
+  color: white;
+  margin: auto;
+    margin-top: 10px;
+}
+
+/* definisco il div che rappresenta la linea di carica
+   del primo monopattino */
+.carica{
+  width: 300px;
+  background-color: orange;
+  height: 20px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+/* copio la prima linea di carica e la modifico */
+.carica2{
+  width: 500px;
+  background-color: rgba(00, 187, 45);
+  height: 20px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+/* copio la prima linea di carica e la modifico */
+.carica3{
+  width: 150px;
+  background-color: red;
+  height: 20px;
+  border-radius: 5px 5px 5px 5px;
+}
